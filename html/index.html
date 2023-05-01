@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Baloo+Paaji+2&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        /* margin: -1px -5px; */
+        padding: 0px;
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Baloo Da 2', cursive;
+        font-family: 'Baloo Paaji 2', cursive;
+    }
+
+    .left {
+        position: absolute;
+        top: -25px;
+        left: 27px;
+        margin: 5px;
+        /* border: 2px solid black; */
+        display: inline;
+    }
+
+    .mid {
+        margin: -8px;
+        position: fixed center;
+        /* top: 5px; */
+        /* left: 424px; */
+
+        width: 45%;
+        margin: 0px auto;
+        /* border: 2px solid black; */
+        display: block;
+        ;
+    }
+
+    .navbar {
+        background-color: rgb(226, 155, 223);
+        margin: -8px;
+        /* position: fixed; */
+    }
+
+    .right {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        margin: 5px;
+        /* border: 2px solid black; */
+        display: inline;
+    }
+
+    .navbar li {
+        padding: 0px 0px;
+        display: inline-block;
+    }
+
+    #aa {
+        color: blueviolet;
+        padding: 7px 16px;
+        margin: 7px 2px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    #aa:hover {
+        color: purple;
+        text-decoration: underline;
+    }
+
+    .left img {
+        width: 90px;
+        height: 101px;
+    }
+
+    /* .left div{
+        text-align: center;
+        color: blueviolet;
+    } */
+
+    .btn {
+        color: rgb(136, 33, 233);
+        padding: 6px 7px;
+        margin: 1px 8px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: rgb(226, 155, 223);
+
+    }
+
+    .btn:hover,
+    .btn3:hover {
+        color: rgb(53, 3, 100);
+        background-color: rgb(230, 157, 205);
+
+
+    }
+
+    #btn2 {
+        padding: 6px 12px;
+        margin: 0px 0px;
+
+    }
+
+    .container {
+        border: 2px solid rgb(177, 52, 226);
+        margin: 8px 32px;
+        padding: 45px 49px;
+        display: block;
+        position: absolute;
+        width: 24%;
+        top: 100px;
+        border-radius: 30px;
+    }
+
+    .btn3 {
+        color: rgb(136, 33, 233);
+        padding: 2px 14px;
+        margin: 18px 109px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 11px;
+        background-color: rgb(226, 155, 223);
+    }
+
+    .formname {
+        text-align: center;
+    }
+
+    #text {
+        color: blueviolet;
+        margin: 6px 67px;
+    }
+</style>
+
+
+<body>
+
+    <header>
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo2.png" alt="Logo not found">
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar" type=none>
+                <li><a id="aa" href="#">Home</a></li>
+                <li><a id="aa" href="#">About Us</a></li>
+                <li><a id="aa" href="#">Fitness</a></li>
+                <li><a id="aa" href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- Right box for buttons  -->
+        <div class="right">
+            <button id="btn2" class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2 id="text">Registration Form </h2>
+        <form action="noaction.php"></form>
+        <div class="formname">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="formname">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="formname">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <div class="formname">
+            <input type="text" name="" placeholder="Enter Your Phone Number">
+        </div>
+        <div class="formname">
+            <input type="text" name="" placeholder="Enter Your Locality ">
+        </div>
+        <button class="btn3">Submit</button>
+
+    </div>
+</body>
+
+</html>
